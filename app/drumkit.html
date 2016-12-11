@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript30: Drumkit</title>
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+</head>
+<body>
+
+    <header id="masthead">
+        <div class="container">
+            <h1 class="page-title">Drumkit</h1>
+        </div>
+    </header>
+
+    <div id="pads">
+        <div class="container">
+            <div class="pad pad--clap" data-key="65">
+                <kbd class="pad__key">A</kbd>
+                <span class="pad__sound">Clap</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--hihat" data-key="83">
+                <kbd class="pad__key">S</kbd>
+                <span class="pad__sound">Hihat</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--kick" data-key="68">
+                <kbd class="pad__key">D</kbd>
+                <span class="pad__sound">Kick</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--openhat" data-key="70">
+                <kbd class="pad__key">F</kbd>
+                <span class="pad__sound">Openhat</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--boom" data-key="71">
+                <kbd class="pad__key">G</kbd>
+                <span class="pad__sound">Boom</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--ride" data-key="72">
+                <kbd class="pad__key">H</kbd>
+                <span class="pad__sound">Ride</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--snare" data-key="74">
+                <kbd class="pad__key">J</kbd>
+                <span class="pad__sound">Snare</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--tom" data-key="75">
+                <kbd class="pad__key">K</kbd>
+                <span class="pad__sound">Tom</span>
+            </div>
+            <!-- /.pad -->
+
+            <div class="pad pad--timber" data-key="76">
+                <kbd class="pad__key">L</kbd>
+                <span class="pad__sound">Timber</span>
+            </div>
+            <!-- /.pad -->
+        </div>
+    </div>
+    <!-- /#pads -->
+
+    <audio data-key="65" src="courses/drumkit/sounds/clap.wav"></audio>
+    <audio data-key="83" src="courses/drumkit/sounds/hihat.wav"></audio>
+    <audio data-key="68" src="courses/drumkit/sounds/kick.wav"></audio>
+    <audio data-key="70" src="courses/drumkit/sounds/openhat.wav"></audio>
+    <audio data-key="71" src="courses/drumkit/sounds/boom.wav"></audio>
+    <audio data-key="72" src="courses/drumkit/sounds/ride.wav"></audio>
+    <audio data-key="74" src="courses/drumkit/sounds/snare.wav"></audio>
+    <audio data-key="75" src="courses/drumkit/sounds/tom.wav"></audio>
+    <audio data-key="76" src="courses/drumkit/sounds/tink.wav"></audio>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/drumkit.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

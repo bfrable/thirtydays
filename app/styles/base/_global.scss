@@ -1,0 +1,25 @@
+body {
+  background: $black;
+  font-family: 'Open Sans', sans-serif;
+  color:  $black;
+}
+
+.container {
+  @include clearfix;
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+}
+
+.page-title {
+  color: $blue1;
+  font-size: rem(18px);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

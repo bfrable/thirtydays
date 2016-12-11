@@ -1,0 +1,12 @@
+{
+  "name": "javascript30",
+  "private": true,
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "reset-scss": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

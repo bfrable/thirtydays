@@ -1,0 +1,91 @@
+$pads: (
+  clap: #73CCFF,
+  hihat: #49E83E,
+  kick: #FFD432,
+  openhat: #E84B30,
+  boom: #e135ff,
+  ride: #4183c4,
+  snare: #ff347a,
+  tom: #49FFD1,
+  timber: #00b28e
+);
+
+#pads {
+  @extend .vertical-center;
+  text-align: center;
+  width: 100%;
+
+  .container {
+    display: flex;
+  }
+
+  .container > div {
+    display: inline-block;
+  }
+
+  .pad {
+    @include transition(all .4s ease);
+    border: 3px solid darken($black, 5%);
+    border-radius: 5px;
+    color: $offwhite;
+    margin: 0 5px;
+    padding: 40px 0;
+    position: relative;
+    width: 20%;
+
+    &__key {
+      display: block;
+    }
+
+    &__sound {
+      bottom: 10px;
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+    }
+
+    &--active {
+      &:before, &:after {
+        content: '';
+        opacity: 0;
+        position: absolute;
+      }
+      &:before {
+        animation-name: fade-in-out;
+        animation-duration: 1s;
+        border-radius: 200px;
+        height: 400px;
+        left: -157px;
+        top: -157px;
+        width: 400px;
+      }
+      &:after {
+        animation-name: fade-in-out;
+        animation-duration: 2s;
+        border-radius: 100px;
+        height: 200px;
+        left: -57px;
+        top: -57px;
+        width: 200px;
+      }
+    }
+  }
+
+  @each $pad, $color in $pads {
+    .pad--#{$pad}.pad--pressed {
+      border: 3px solid $color;
+      color: $color;
+    }
+
+    .pad--#{$pad}.pad--active {
+      &:before, &:after {
+        border: 3px solid $color;
+      }
+    }
+  }
+}
