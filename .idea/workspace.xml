@@ -22,19 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="drumkit.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/drumkit.js">
+      <file leaf-file-name="drumkit.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/drumkit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding>
-                <element signature="e#211#609#0" expanded="false" />
-                <element signature="e#643#1869#0" expanded="false" />
-                <element signature="e#693#720#0" expanded="false" />
-                <element signature="e#1906#1977#0" expanded="false" />
-                <element signature="e#2022#2075#0" expanded="false" />
-                <element signature="e#2103#2703#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,9 +47,9 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/dist/drumkit.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/drumkit.html" />
         <option value="$PROJECT_DIR$/app/styles/drumkit/_pads.scss" />
         <option value="$PROJECT_DIR$/app/scripts/drumkit.js" />
+        <option value="$PROJECT_DIR$/app/drumkit.html" />
       </list>
     </option>
   </component>
@@ -223,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481463562001</updated>
-      <workItem from="1481463563329" duration="29279000" />
+      <workItem from="1481463563329" duration="29622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29279000" />
+    <option name="totallyTimeSpent" value="29622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1680" height="1023" extended-state="0" />
@@ -377,14 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/drumkit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/scripts/drumkit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -411,16 +396,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/drumkit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="e#211#609#0" expanded="false" />
             <element signature="e#643#1869#0" expanded="false" />
             <element signature="e#693#720#0" expanded="false" />
             <element signature="e#1906#1977#0" expanded="false" />
             <element signature="e#2022#2075#0" expanded="false" />
-            <element signature="e#2103#2703#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/drumkit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
