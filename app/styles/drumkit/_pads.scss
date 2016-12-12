@@ -7,7 +7,7 @@ $pads: (
   ride: #4183c4,
   snare: #ff347a,
   tom: #49FFD1,
-  timber: #00b28e
+  tink: #00b28e
 );
 
 #pads {
@@ -32,6 +32,7 @@ $pads: (
     padding: 40px 0;
     position: relative;
     width: 20%;
+    z-index: 2;
 
     &__key {
       display: block;
@@ -50,10 +51,12 @@ $pads: (
     }
 
     &--active {
+      z-index: -1;
       &:before, &:after {
         content: '';
         opacity: 0;
         position: absolute;
+        z-index: 1;
       }
       &:before {
         animation-name: fade-in-out;
