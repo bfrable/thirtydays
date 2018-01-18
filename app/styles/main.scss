@@ -7,4 +7,5 @@
 @import 'base/_vars.scss', 'base/_mixins', 'base/_functions', 'base/_global', 'base/_masthead', 'base/_animations';
 
 // Projects
-@import 'drumkit/drumkit';
+@import 'components/drumkit';
+@import 'components/typeahead';

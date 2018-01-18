@@ -1,11 +1,9 @@
 (function(){
     'use strict';
 
-    let drumkit, els, state;
-
-    drumkit = {};
-    els = { pads: document.querySelectorAll('.pad') };
-    state = {};
+    let drumkit = drumkit || {};
+    let els = { pads: document.querySelectorAll('.pad') };
+    let state = {};
 
     drumkit.triggerKeyboardEvent = (el, keyCode, event) => {
         var eventObj = document.createEventObject ? document.createEventObject() : document.createEvent('Events');
@@ -33,8 +31,8 @@
             inactive: () => {
                 els.pad.classList.remove('pad--active');
             },
-            depressed: () => {
-                [].forEach.call(els.pads, function(pad) {
+            onUp: () => {
+                [].forEach.call(els.pads, (pad) => {
                     pad.classList.remove('pad--pressed');
                 });
             }
@@ -64,26 +62,25 @@
     drumkit.removePressed = () => {
         if (!els.audio) { return; }
 
-        state.depressed();
+        state.onUp();
     };
 
-    drumkit.removeAnimation = function () {
+    drumkit.removeAnimation = () => {
         this.classList.remove('pad--active');
     };
 
     drumkit.init = () => {
-        window.addEventListener('keydown', function(){
-            drumkit.playSound();
-        });
+
+        window.addEventListener('keydown', drumkit.playSound);
 
         window.addEventListener('keyup', drumkit.removePressed.bind(drumkit));
 
-        [].forEach.call(els.pads, function(pad) {
-            pad.addEventListener('click', function(){
+        [].forEach.call(els.pads, (pad) => {
+            pad.addEventListener('click', () => {
                 drumkit.keyCode = this.dataset.key;
 
                 drumkit.triggerKeyboardEvent(this, drumkit.keyCode, 'keydown');
-                setTimeout(function() {
+                setTimeout(() => {
                     drumkit.triggerKeyboardEvent(this, drumkit.keyCode, 'keyup');
                 }, 200);
             });
