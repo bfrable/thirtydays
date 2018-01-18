@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa52529-22ee-41f0-ac11-cedf8580b763" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/scripts/typeahead.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/_typeahead.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/typeahead.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/javascript30.iml" afterPath="$PROJECT_DIR$/.idea/javascript30.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/drumkit.js" afterPath="$PROJECT_DIR$/app/scripts/drumkit.js" />
-      <change beforePath="$PROJECT_DIR$/app/styles/drumkit/_drumkit.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/styles/drumkit/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/styles/drumkit/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/styles/drumkit/_pads.scss" afterPath="$PROJECT_DIR$/app/styles/components/_drumkit.scss" />
-      <change beforePath="$PROJECT_DIR$/app/styles/drumkit/_vars.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
     </list>
     <ignored path="javascript30.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,14 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typeahead.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="typeahead.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/typeahead.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="405">
               <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
                 <marker date="1516307635000" expanded="true" signature="1235:1413" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +86,6 @@
         <option value="$PROJECT_DIR$/app/styles/base/_vars.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/dist/drumkit.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/styles/drumkit/_pads.scss" />
         <option value="$PROJECT_DIR$/app/drumkit.html" />
         <option value="$PROJECT_DIR$/app/styles/clock/_animations.scss" />
@@ -103,6 +101,7 @@
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/scripts/drumkit.js" />
         <option value="$PROJECT_DIR$/app/scripts/typeahead.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -340,22 +339,21 @@
       <workItem from="1493691609632" duration="232000" />
       <workItem from="1494004127112" duration="446000" />
       <workItem from="1494253993718" duration="1401000" />
-      <workItem from="1516307460430" duration="177000" />
+      <workItem from="1516307460430" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53427000" />
+    <option name="totallyTimeSpent" value="53615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33038673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46915168" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46915168" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6300578" sideWeight="0.5177453" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43633762" sideWeight="0.48225468" order="0" side_tool="false" content_ui="tabs" />
@@ -481,13 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -646,11 +637,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/typeahead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="405">
           <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
             <marker date="1516307635000" expanded="true" signature="1235:1413" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
